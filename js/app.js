@@ -4,7 +4,7 @@ const teamMembersArray = [
     {
         name: 'Wayne Barnett',
         position: 'Founder & CEO',
-        photo: 'wayne-barnett-founder-ceo.jpg'
+        photo: '<img src="./img/wayne-barnett-founder-ceo.jpg" alt="">'
     },
 
     {
