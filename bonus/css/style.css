@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
 .container {
     margin: 0 auto;
     width: 900px;
@@ -32,8 +40,17 @@ h3 {
 }
 
 .col {
-    border: 1px solid black;
     text-align: center;
-    /* padding: 50px; */
-    /* aspect-ratio: 1; */
+    background-color: white;
+}
+
+.member-name {
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.member-job {
+    font-size: 14px;
+    padding-bottom: 10px;
 }
