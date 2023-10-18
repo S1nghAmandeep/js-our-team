@@ -57,8 +57,8 @@ for (let i = 0; i < teamMembersArray.length; i++) {
     const cardString = `
     <div class="col">
     <img src="${memberPhoto}" alt="">
-    <p>${memberName}</p>
-    <p>${memberPosition}</p>`
+    <p class="member-name">${memberName}</p>
+    <p class="member-job">${memberPosition}</p>`
 
     cardDomElement.innerHTML += cardString;
 }
