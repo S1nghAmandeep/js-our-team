@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    /* display: none; */
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+
+.titol {
+    text-align: center;
+    padding: 50px;
+}
+
+#card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.col {
+    border: 1px solid black;
+    text-align: center;
+    /* padding: 50px; */
+    /* aspect-ratio: 1; */
+}
