@@ -1,4 +1,4 @@
-
+// - Creare l’array di oggetti con le informazioni fornite.
 const teamMembersArray = [
 
     {
@@ -38,4 +38,24 @@ const teamMembersArray = [
     },
 ];
 
+// - Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 console.log(teamMembersArray);
+
+
+let memberName = ''
+
+for (let i = 0; i < teamMembersArray.length; i++) {
+    const infoTeam = teamMembersArray[i];
+    // console.log(teamMembersArray[i]);
+    memberName += `${infoTeam.name} - ${infoTeam.position} - ${infoTeam.photo} - `;
+}
+
+console.log(memberName);
+
+
+// Stampare le stesse informazioni su DOM sottoforma di stringhe
+
+const cardDomElement = document.getElementById('card');
+console.log(cardDomElement);
+cardDomElement.innerHTML = memberName;
+
