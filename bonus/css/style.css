@@ -42,6 +42,7 @@ h3 {
 .col {
     text-align: center;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .member-name {
